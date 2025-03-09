@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3E7B27;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.374);
+    color: white;
+    padding: 75px;
+    width: 210px;
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+#judul {
+    cursor: pointer;
+}
+#judul:hover {
+    color: blue;
+}
